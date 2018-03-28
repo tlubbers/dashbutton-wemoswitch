@@ -6,8 +6,8 @@ def blink_front_room_lamp():
 	switch.blink()
 
 def blink_living_room_lamp():
-        switch = env.get_switch('Living Room Lamp')
-        switch.blink()
+  switch = env.get_switch('Living Room Lamp')
+  switch.blink()
 
 def start_wemo_server():
 	env.start()
